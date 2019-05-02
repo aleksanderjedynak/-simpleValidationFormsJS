@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="container">
+        <h1>Formularz kontaktowy</h1>
+        <form  action="#" novalidate>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="name" data-error="Err! name">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_mail" data-error="Err! mail">
+            </div>
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" data-error="Err! message" placeholder="text"></textarea>
+            </div>
+            <div>
+                <label for="choice">Choice:</label>
+                <select name="choice" id="choi" name="user_choice" data-error="Err! choice">
+                    <option value="" disabled selected>No Value</option>
+                    <option value="first">First Value</option>
+                    <option value="second">Second Value</option>
+                    <option value="third">Third Value</option>
+                </select>
+            </div>
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </form>
+
+    </div>
     
 </body>
 <script src="script.js"></script>
