@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.container{
+    margin: 0 auto;
+    width: 600px;
+    height: 100vh;
+    padding: 0 20px;
+    background:  #8faf70; 
+
+}
+
+.container h1{
+    text-align: center;
+}
+
+form {
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+ul{
+  list-style-type: none;
+  background: rebeccapurple;
+  border-radius: 8px;
+  color:white;
+}
+
+select {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #05ff75;
+}
+
+.error {
+  border-color: red;
+  border-spacing: 1px;
+}
+
+.success{
+    height: 50px;
+    background: gold;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
